@@ -1,0 +1,70 @@
+name: maven
+description: Powerful cross-platform workout app that helps you track your progress and reach your fitness goals.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+  # Development
+  intl_utils: ^2.8.3
+  build_runner: ^2.3.3
+  sqlite_viewer: ^1.0.5
+  # Database
+  sqflite: ^2.2.2
+  floor: ^1.4.1
+  floor_generator: ^1.4.1
+  csv: ^6.0.0
+  # State Management
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  # System
+  file_picker: ^6.2.0
+  package_info_plus: ^5.0.1
+  device_info_plus: ^9.0.3
+  # User Interface
+  cupertino_icons: ^1.0.5
+  expandable: ^5.0.1
+  sliding_up_panel: ^2.0.0+1
+  flutter_colorpicker: ^1.0.3
+  timeago: ^3.3.0
+  reorderables: ^0.6.0
+  shimmer: ^3.0.0
+  flutter_slidable: ^3.0.0
+  video_player: ^2.6.1
+  reorderable_grid: ^1.0.6
+  flutter_markdown: ^0.6.15+1
+  multiavatar: ^0.1.5
+  flutter_svg: ^2.0.7
+  table_calendar: ^3.0.9
+  mockito: ^5.4.2
+  sliver_tools: ^0.2.12
+  dynamic_color: ^1.6.6
+  bloc_test: ^9.1.5
+  mocktail: ^1.0.2
+  copy_with_extension: ^5.0.4
+  youtube_player_flutter: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  copy_with_extension_gen: ^5.0.4
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  generate: false
+  assets:
+    - assets/images/
+
+flutter_intl:
+  enabled: true
